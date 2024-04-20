@@ -1,0 +1,59 @@
+.skills .overlay {
+  height: 10rem;
+  background-color: #011e30;
+}
+
+.skills .container {
+  margin-top: -10rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border-radius: 50px;
+  gap: 20px;
+}
+
+.skill {
+  padding: 5rem 7rem;
+  background-color: #fff;
+  text-align: center;
+}
+
+.skill .title {
+  font-size: 20px;
+  margin: 2rem 0;
+  font-weight: 600;
+}
+
+.skill .titlesub {
+  font-size: 16px;
+  margin-top: 3rem;
+}
+
+.skill .subtitle {
+  font-size: 12px;
+  margin: 2rem 1rem;
+}
+
+.skills .subs {
+  font-size: 12px;
+  margin: 1rem 1rem 2rem 1rem;
+}
+
+.tools {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
+
+@media (width < 600px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .skill .title {
+    font-size: 25px;
+  }
+}

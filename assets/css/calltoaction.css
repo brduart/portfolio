@@ -1,0 +1,47 @@
+.call .overlay {
+  height: 10rem;
+  background-color: #011e30;
+}
+
+.call .container {
+  margin-bottom: -7rem;
+}
+
+.call-to-action {
+  position: relative;
+  padding: 4rem 7rem;
+  background-color: white;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #011e30;
+}
+
+.call-to-action h3 {
+  font-size: 25px;
+}
+
+.call-to-action a {
+  text-decoration: none;
+  padding: 2rem 3rem;
+  border: 1px solid #011e30;
+  border-radius: 1rem;
+  font-size: 15px;
+}
+
+@media (width < 600px) {
+  .call-to-action {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .call-to-action h3 {
+    font-size: 20px;
+    margin-bottom: 1rem;
+  }
+
+  .call-to-action a {
+    padding: 2rem 2rem;
+  }
+}

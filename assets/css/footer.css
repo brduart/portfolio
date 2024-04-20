@@ -1,0 +1,30 @@
+footer {
+  background-color: #011e30;
+  padding: 7rem 7rem;
+  text-align: center;
+  color: #fff;
+}
+
+footer p {
+  margin-top: 2rem;
+}
+
+footer .socials {
+  margin-top: 2rem;
+}
+
+footer .socials a {
+  padding: 1rem;
+}
+
+@media (width < 600px) {
+  footer .socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  footer p {
+    font-size: 1rem;
+  }
+}

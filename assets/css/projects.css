@@ -1,0 +1,55 @@
+.projects {
+  color: #fff;
+  padding: 8rem 0 15rem 0;
+}
+
+.projects .container h2 {
+  font-size: 40px;
+}
+
+.projects .container p {
+  font-size: 16px;
+}
+
+.projects-grid {
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+}
+
+.project {
+  padding: 10rem 7rem;
+  background-color: #fff;
+  border-radius: 1rem;
+}
+
+@media (width < 600px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .project {
+    border-radius: 1rem;
+  }
+
+  .projects .container {
+    text-align: center;
+  }
+
+  .projects .container h2 {
+    font-size: 30px;
+  }
+
+  .projects .container p {
+    font-size: 16px;
+  }
+
+  .projects-text {
+    max-width: 200px;
+  }
+
+  .projects .container {
+    max-width: 300px;
+  }
+}
